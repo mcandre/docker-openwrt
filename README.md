@@ -12,9 +12,9 @@ https://registry.hub.docker.com/u/mcandre/docker-openwrt/
 
 ```
 $ make
-docker build -t mcandre/openwrt:latest .
+docker build -t mcandre/docker-openwrt:latest .
 ...
-docker run --rm mcandre/openwrt:latest sh -c 'cat /etc/*release*'
+docker run --rm mcandre/docker-openwrt:latest sh -c 'cat /etc/*release*'
 DISTRIB_ID='OpenWrt'
 DISTRIB_RELEASE='15.05.1'
 DISTRIB_REVISION='r48532'
