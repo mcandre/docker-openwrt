@@ -1,4 +1,4 @@
-IMAGE=mcandre/openwrt:latest
+IMAGE=mcandre/docker-openwrt:latest
 ROOTFS=rootfs.tar.gz
 
 all: run
