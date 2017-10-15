@@ -12,16 +12,14 @@ https://registry.hub.docker.com/u/mcandre/docker-openwrt/
 
 ```
 $ make
-docker build -t mcandre/docker-openwrt:12.09 .
+docker build -t mcandre/docker-openwrt:10.03.1 .
 ...
 
-docker run --rm mcandre/docker-openwrt:12.09 sh -c 'cat /etc/*release*'
+docker run --rm mcandre/docker-openwrt:10.03.1 sh -c 'cat /etc/*release*'
 DISTRIB_ID="OpenWrt"
-DISTRIB_RELEASE="12.09"
-DISTRIB_REVISION="r36088"
-DISTRIB_CODENAME="attitude_adjustment"
-DISTRIB_TARGET="x86/generic"
-DISTRIB_DESCRIPTION="OpenWrt Attitude Adjustment 12.09"
+DISTRIB_RELEASE="10.03.1"
+DISTRIB_CODENAME="backfire"
+DISTRIB_DESCRIPTION="OpenWrt Backfire 10.03.1"
 ```
 
 # REQUIREMENTS

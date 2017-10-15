@@ -1,10 +1,10 @@
-IMAGE=mcandre/docker-openwrt:12.09
+IMAGE=mcandre/docker-openwrt:10.03.1
 ROOTFS=rootfs.tar.gz
 
 all: run
 
 $(ROOTFS):
-	wget -O $(ROOTFS) https://downloads.openwrt.org/attitude_adjustment/12.09/x86/generic/openwrt-x86-generic-rootfs.tar.gz
+	wget -O $(ROOTFS) https://downloads.openwrt.org/backfire/10.03.1/x86_generic/openwrt-x86-generic-rootfs.tar.gz
 
 build: Dockerfile $(ROOTFS)
 	docker build -t $(IMAGE) .
