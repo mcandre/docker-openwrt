@@ -1,10 +1,10 @@
-IMAGE=mcandre/docker-openwrt:15.05.1
+IMAGE=mcandre/docker-openwrt:15.05
 ROOTFS=rootfs.tar.gz
 
 all: run
 
 $(ROOTFS):
-	wget -O $(ROOTFS) https://downloads.openwrt.org/chaos_calmer/15.05.1/x86/64/openwrt-15.05.1-x86-64-rootfs.tar.gz
+	wget -O $(ROOTFS) https://downloads.openwrt.org/chaos_calmer/15.05/x86/64/openwrt-15.05-x86-64-rootfs.tar.gz
 
 build: Dockerfile $(ROOTFS)
 	docker build -t $(IMAGE) .
