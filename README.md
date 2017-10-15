@@ -12,17 +12,16 @@ https://registry.hub.docker.com/u/mcandre/docker-openwrt/
 
 ```
 $ make
-docker build -t mcandre/docker-openwrt:14.07 .
+docker build -t mcandre/docker-openwrt:12.09 .
 ...
 
-docker run --rm mcandre/docker-openwrt:14.07 sh -c 'cat /etc/*release*'
+docker run --rm mcandre/docker-openwrt:12.09 sh -c 'cat /etc/*release*'
 DISTRIB_ID="OpenWrt"
-DISTRIB_RELEASE="14.07"
-DISTRIB_REVISION="r42625"
-DISTRIB_CODENAME="barrier_breaker"
+DISTRIB_RELEASE="12.09"
+DISTRIB_REVISION="r36088"
+DISTRIB_CODENAME="attitude_adjustment"
 DISTRIB_TARGET="x86/generic"
-DISTRIB_DESCRIPTION="OpenWrt Barrier Breaker 14.07"
-DISTRIB_TAINTS=""
+DISTRIB_DESCRIPTION="OpenWrt Attitude Adjustment 12.09"
 ```
 
 # REQUIREMENTS
