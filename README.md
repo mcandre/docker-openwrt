@@ -12,14 +12,14 @@ https://registry.hub.docker.com/u/mcandre/docker-openwrt/
 
 ```
 $ make
-docker build -t mcandre/docker-openwrt:10.03.1 .
+docker build -t mcandre/docker-openwrt:10.03 .
 ...
 
-docker run --rm mcandre/docker-openwrt:10.03.1 sh -c 'cat /etc/*release*'
+docker run --rm mcandre/docker-openwrt:10.03 sh -c 'cat /etc/*release*'
 DISTRIB_ID="OpenWrt"
-DISTRIB_RELEASE="10.03.1"
+DISTRIB_RELEASE="10.03"
 DISTRIB_CODENAME="backfire"
-DISTRIB_DESCRIPTION="OpenWrt Backfire 10.03.1"
+DISTRIB_DESCRIPTION="OpenWrt Backfire 10.03"
 ```
 
 # REQUIREMENTS
