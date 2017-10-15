@@ -14,13 +14,14 @@ https://registry.hub.docker.com/u/mcandre/docker-openwrt/
 $ make
 docker build -t mcandre/docker-openwrt:15.05 .
 ...
+
 docker run --rm mcandre/docker-openwrt:15.05 sh -c 'cat /etc/*release*'
 DISTRIB_ID='OpenWrt'
-DISTRIB_RELEASE='15.05.1'
-DISTRIB_REVISION='r48532'
+DISTRIB_RELEASE='15.05'
+DISTRIB_REVISION='r46767'
 DISTRIB_CODENAME='chaos_calmer'
 DISTRIB_TARGET='x86/64'
-DISTRIB_DESCRIPTION='OpenWrt Chaos Calmer 15.05.1'
+DISTRIB_DESCRIPTION='OpenWrt Chaos Calmer 15.05'
 DISTRIB_TAINTS=''
 ```
 
