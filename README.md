@@ -1,8 +1,8 @@
-# docker-openwrt - Docker base images for OpenWRT
+# docker-openwrt - Docker base images for OpenWrt
 
 # ABOUT
 
-docker-openwrt automates Docker image generation while waiting for OpenWRT to produce official images.
+docker-openwrt automates Docker image generation while waiting for OpenWrt to produce official images.
 
 # DOCKER HUB
 
