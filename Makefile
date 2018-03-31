@@ -4,7 +4,7 @@ ROOTFS=rootfs.tar.gz
 all: run
 
 $(ROOTFS):
-	wget -O $(ROOTFS) https://downloads.openwrt.org/chaos_calmer/15.05.1/x86/64/openwrt-15.05.1-x86-64-rootfs.tar.gz
+	wget -O $(ROOTFS) https://downloads.openwrt.org/releases/17.01.4/targets/x86/64/lede-17.01.4-x86-64-generic-rootfs.tar.gz
 
 build: Dockerfile $(ROOTFS)
 	docker build -t $(IMAGE) .
